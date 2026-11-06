@@ -1,4 +1,4 @@
-# hyper-mock ⚡
+# hyper-mock
 
 [![CI](https://github.com/dani-s-h007/hyper-mock/actions/workflows/ci.yml/badge.svg)](https://github.com/dani-s-h007/hyper-mock/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -11,7 +11,7 @@ Building resilient client applications requires testing adverse real-world netwo
 
 ---
 
-## ✨ Features
+## Features
 
 - **Instant Zero-Config Boot**: Spawns an HTTP mock server in < 5ms using native Node.js HTTP.
 - **Built-in Chaos Engineering**:
@@ -25,7 +25,7 @@ Building resilient client applications requires testing adverse real-world netwo
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Run on-demand with npx
@@ -37,7 +37,7 @@ npm install -g hyper-mock
 
 ---
 
-## 🛠️ CLI Usage
+## CLI Usage
 
 ### Instant Boot
 ```bash
@@ -70,7 +70,7 @@ curl -N http://localhost:4000/api/chat/stream
 
 ---
 
-## 💻 Programmatic TypeScript API
+## Programmatic TypeScript API
 
 ```typescript
 import { createMockServer } from 'hyper-mock';
@@ -90,7 +90,7 @@ server.listen(4000, () => {
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 npm test
@@ -98,7 +98,7 @@ npm test
 
 ---
 
-## 📄 License
+## License
 
 MIT © Essentials Toolkit Authors
 

@@ -65,7 +65,7 @@ export async function runCli(argv = process.argv.slice(2)) {
 
   server.listen(port, () => {
     if (!values.quiet) {
-      console.log('\n⚡ hyper-mock server listening on:');
+      console.log('\n[hyper-mock] Server listening on:');
       console.log(`   http://localhost:${port}`);
       console.log('------------------------------------------------------------');
       console.log(`- Base Endpoint:      http://localhost:${port}/health`);
